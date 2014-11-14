@@ -1,0 +1,142 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+
+/* ==========================================================================
+   Gilberto custom styles
+   ========================================================================== */
+
+header {
+    display: block;
+    height: auto;
+    width: auto;
+    overflow: visible;
+    border-top: 3px solid #40586A;
+    padding: 30px 0px;
+    background-color: #506E84;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #D3DBE0;    
+    font-size: 42px;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 b {
+    color: #98B0C1;
+    font-weight: 900;
+}
+
+#integration_form {
+    margin: 0 auto;
+    display: block;
+    width: 285px;
+    line-height: 30px;
+}
+
+.modal-content {
+    width: 400px;
+    margin: 30px auto 0px;
+    padding: 35px;    
+}
+
+.modal-content input, .modal-content button, .modal-content select { height:40px; }
+
+.error {
+    font-weight: normal;
+    color: red;
+}
+
+#banner {
+    background: url('../img/keyboard-bg.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 460px;
+    text-align: center;
+    color: #fff;
+}
+
+#banner h2 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 44px;
+    margin-top: 120px;
+    font-weight: 400;
+}
+#banner p {
+    color: #ddd;
+    letter-spacing: 2px;    
+}
+#banner a { 
+    text-transform: uppercase; 
+    letter-spacing: -1px; 
+    display: inline-block; 
+    -webkit-box-shadow: 0px 3px 0px 0px #0B5493; 
+    -moz-box-shadow: 0px 3px 0px 0px #0B5493; 
+    box-shadow: 0px 3px 0px 0px #0B5493; 
+    margin: 60px 0 0; 
+    font-weight: bold;
+    padding: 15px 40px;
+    width: 400px;
+}
+
+
+.powered span{
+    color: #666;
+    margin-top: 20px;
+    display: block;
+}
