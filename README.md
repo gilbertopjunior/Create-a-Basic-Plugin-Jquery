@@ -12,7 +12,7 @@ Installation:
 For this example we will use:
 - Jquery
 - Bootstrap ( css form and modal )
- - Download do plugin Dynaform
+- Download plugin Dynaform
 
 insert the js files in your projectExample: 
 <script src="js/jquery.min.js"></script>
